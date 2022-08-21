@@ -1,4 +1,4 @@
-/* gutter 30 px */
+
 
 /* width 1170 */
 
@@ -229,6 +229,20 @@ img {
   margin-right: 10px;
 }
 
+.header-contact-link {
+  display: inline-flex;
+  align-items: center;
+  color: var(--main-grey);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.header-contact-link:hover,
+.header-contact-link:focus {
+  color: var(--main-blue);
+}
 
 /* section */
 
@@ -354,33 +368,7 @@ img {
   background-color: rgba(47, 48, 58, 0.8);
 }
 
-/*
-.works-item {
-  position: relative;
-  margin-right: 30px;
-}
-.works-item:nth-child(3n) {
-  margin-right: 0px;
-}
-.works-item-text {
-  position: absolute;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  padding: 27px 80px;
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.14;
-  text-align: center;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: var(--main-white);
-  background-color: rgba(47, 48, 58, 0.8);
-}
-*/
+
 
 /* section team */
 
@@ -586,6 +574,10 @@ img {
   transform: translateY(0);
 }
 
+.portfolio-overlay-wrapper {
+  position: relative;
+  overflow: hidden;
+}
 
 /* clients */
 
