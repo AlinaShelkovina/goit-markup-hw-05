@@ -539,6 +539,9 @@ img {
 
 .portfolio-card-link {
   display: block;
+  position: relative;
+  overflow: hidden;
+  
 }
 .portfolio-card-link:hover,
 .portfolio-card-link:focus {
