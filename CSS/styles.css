@@ -538,10 +538,7 @@ img {
 }
 
 .portfolio-card-link {
-  display: block;
-  position: relative;
-  overflow: hidden;
-  
+  display: block;  
 }
 .portfolio-card-link:hover,
 .portfolio-card-link:focus {
@@ -549,9 +546,16 @@ img {
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
+
+.portfolio-text-wrap {
+  border: 1px solid var(--grey-border);
+  border-top: none;
+  padding: 20px 24px;
+}
+
 .portfolio-text-overlay {
   position: absolute;
-  bottom: 0;
+  bottom: 50%;
   left: 0;
   display: flex;
   justify-content: center;
@@ -581,6 +585,7 @@ img {
   position: relative;
   overflow: hidden;
 }
+
 
 /* clients */
 
